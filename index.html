@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <script src="https://kit.fontawesome.com/bd6bc08428.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>DigitalOcean</title>
+    </head>
+    <body>
+            <header class="navbar-fixed-top">
+                <div id="border" id="header-top" class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div id="header-top-left" class="col-lg-6 col-md-11 col-sm-11">
+                            <ul>
+                                <li class="hidden-xs">
+                                    <button id="new" type="button" class="btn btn-default text-uppercase navbar-btn">New</button>
+                                </li>
+                                <li>
+                                    Working on something related to COVID-19? DigitalOcean would like to help ❯
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="header-top-right" class="col-lg-3 col-lg-offset-3 col-md-1 col-sm-1 hidden-xs hidden-md hidden-sm">
+                            <ul>
+                                <li>Docs</li>
+                                <li>Get Support</li>
+                                <li>Sales</li>
+                                <li>Sign in</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="header-bottom" class="hidden-xs navbar navbar-default padding">
+                <div class="container-fluid">
+                    <div id="header-bottom-left" class="col-lg-2 col-md-2 col-sm-1 margin">
+                        <img src="img/digital-logo.png" alt="logo">
+                    </div>
+                    <div id="header-bottom-central" class="col-lg-9 col-md-9 col-sm-9 margin">
+                        <ul>
+                            <li>Product</li>
+                            <li>Marketpace</li>
+                            <li>Customers</li>
+                            <li>Partners</li>
+                            <li>Community</li>
+                            <li>Pricing</li>
+                        </ul>
+                    </div>
+                    <div id="header-bottom-right" class="col-lg-1 col-md-1 col-sm-2 margin">
+                        <button id="sign" type="button" class="btn btn-default navbar-btn">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            </header>
+            <section>
+                <div class="jumbotron">
+                    <div class="container">
+                        <div id="jumbotron-left" class="col-lg-6 col-md-6 col-sm-6">
+                            <h1>Welcome to the developer cloud</h1>
+                            <p>
+                                We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.
+                            </p>
+                        </div>
+                        <div id="jumbotron-right" class="col-lg-6 col-md-6 col-sm-6 clearfix">
+                            <form class="clearfix">
+                                <h1 class="text-center">Deploy in seconds</h1>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                </div>
+                                <button type="button" id="create-account" class="center-block btn btn-primary">Create Your Account</button>
+                                <p id="separatore" class="text-center">or sign up with</p>
+                                <button type="button" id="google" class="btn btn-primary col-lg-5 col-md-6 col-sm-12 col-xs-12"><i class="fab fa-google"></i>Create Your Account</button>
+                                <button type="button" id="github" class="btn btn-primary col-lg-5 col-lg-offset-2 col-md-6 col-sm-12 col-xs-12"><i class="fab fa-github"></i>Create Your Account</button>
+                                <p id="terms" class="text-center">By signing up you agree to the <a href="#">Terms of Service.</a></p>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sezione1">
+                <div class="container">
+                    <div id="sezione1-titolo" class="text-center">
+                        <p>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                            <img src="img/docker.png" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                            <img src="img/gitlab.png" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                            <img src="img/hashicorp.png" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                            <img src="img/slack.png" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                            <img src="img/splunk.png" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                            <img src="img/wework.png" alt="">
+                        </div>
+                    </div>
+                    <div id="business"class="text-center">
+                        <a href="#">See business solutions</a>
+                    </div>
+                </div>
+            </section>
+            <section id="sezione2">
+                <div class="container">
+                    <div id="sezione2-titolo" class="text-center">
+                        <p>Deploy and scale seamlessly</p>
+                    </div>
+                    <div id="sezione2-paragrafo" class="text-center">
+                        <p>
+                            Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.
+                        </p>
+                    </div>
+                    <div id="sezione2-lista" class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
+                        <ul>
+                            <li><a href="#">Deploy</a></li>
+                            <li><a href="#">Scale</a></li>
+                            <li><a href="#">Store</a></li>
+                            <li><a href="#">Secure</a></li>
+                            <li><a href="#">Deploy</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 elements">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge"><g fill="#0069FF" fill-rule="nonzero"><path d="M19.2 34.57c-8.472 0-15.34-6.868-15.34-15.34S10.728 3.89 19.2 3.89s15.34 6.868 15.34 15.34c-.011 8.467-6.873 15.329-15.34 15.34zm0-28.21c-7.097 0-12.85 5.753-12.85 12.85 0 7.097 5.753 12.85 12.85 12.85 7.097 0 12.85-5.753 12.85-12.85 0-7.097-5.753-12.85-12.85-12.85z"></path><path d="M19.25 25.57a6.3 6.3 0 1 1 0-12.6 6.3 6.3 0 0 1 0 12.6zm0-10.09A3.81 3.81 0 1 0 23 19.31a3.81 3.81 0 0 0-3.75-3.83z"></path><path d="M18 0h2.49v14.11H18V0zM3.396 7.985l1.572-1.931 10.973 8.933-1.572 1.931L3.396 7.985zm19.164 6.97L33.532 6.02l1.572 1.93-10.972 8.936-1.572-1.93zm1.6 6.652l.533-2.432 13.802 3.027-.534 2.432-13.802-3.027zM0 22.2l13.803-3.025.533 2.432L.533 24.632 0 22.2zm20.452 2.031l2.245-1.077L28.956 36.2l-2.245 1.077-6.26-13.046zM9.545 36.19l6.153-13.052 2.252 1.061-6.153 13.053-2.252-1.062z"></path>
+                        </g></svg>
+                        <p>Kubernetes in minutes</p>
+                        <p>
+                            Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 elements">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge"><defs><linearGradient id="aopti" x1="50.055%" x2="50.055%" y1="2.475%" y2="96.438%"><stop offset="0%" stop-color="#0069FF" stop-opacity=".3"></stop><stop offset="100%" stop-color="#0069FF" stop-opacity="0"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path stroke="#0069FF" stroke-width="2" d="M3 11.121v18.108l17.271 10.028L37.45 29.229V11.121L20.271 1.186z" opacity=".2"></path><path fill="url(#aopti)" fill-rule="nonzero" d="M0 22.936v5.293l17.271 10.028L34.45 28.229v-5.293L17.271 13z" transform="translate(3 1)"></path><path stroke="#0069FF" stroke-width="2" d="M3 23.936v5.293l17.271 10.028L37.45 29.229v-5.293L20.271 14z"></path><path stroke="#0069FF" stroke-width="2" d="M3 23.936l17.271 9.935 17.179-9.935"></path><path fill="#FFF" fill-rule="nonzero" stroke="#120078" stroke-width="2" d="M20.2714 7.7786S12.5643 13.4429 12.5643 19.2c0 4.2714 3.4357 7.7071 7.7071 7.7071 4.2715 0 7.7072-3.4357 7.7072-7.7071 0-5.5714-7.7072-11.4214-7.7072-11.4214z"></path><path stroke="#0069FF" stroke-width="2" d="M3 11.4l17.271 9.936L37.45 11.4" opacity=".2"></path>
+                        </g></svg>
+                        <p>Flexible compute types</p>
+                        <p>
+                            With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 elements">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge"><defs><linearGradient x1="11.123%" y1="109.271%" x2="80.386%" y2="3.434%" id="aprebu"><stop stop-color="#0069FF" stop-opacity=".6" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient><linearGradient x1="11.231%" y1="109.543%" x2="80.289%" y2="3.243%" id="bprebu"><stop stop-color="#0069FF" stop-opacity=".6" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#aprebu)" fill-rule="nonzero" opacity=".3" d="M24.93 12.96V.9H8.73v12.06z" transform="translate(3.5 2)"></path><path stroke="#0069FF" stroke-width="2" opacity=".3" d="M28.414 2.876v12.06h-16.2V2.876z"></path><path fill="#FFFFFF" fill-rule="nonzero" d="M32.59 7.593v18.09H8.11V7.593z"></path><path fill="url(#bprebu)" fill-rule="nonzero" d="M29.07 23.76V5.67H4.59v18.09z" transform="translate(3.5 2)"></path><path stroke="#0069FF" stroke-width="2" d="M32.59 7.593v18.09H8.11V7.593z"></path><path stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" d="M3.522 37.985v-25.2h33.66v25.2z"></path><g stroke="#120078" stroke-width="2"><path d="M20.33 20.81v9.09M15.74 25.4h9.18"></path></g></g></svg>
+                        <p>1-Click App Marketplace</p>
+                        <p>
+                            Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 elements">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge"><defs><linearGradient x1="49.963%" y1="1.851%" x2="49.963%" y2="99.243%" id="a"><stop stop-color="#0069FF" stop-opacity=".3" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient></defs><g transform="translate(4.3 1)" fill="none" fill-rule="evenodd"><circle fill="url(#a)" fill-rule="nonzero" cx="16.185" cy="22.815" r="16.185"></circle><ellipse fill="#FFFFFF" fill-rule="nonzero" cx="16.185" cy="22.815" rx="16.185" ry="6.143"></ellipse><path d="M0 22.815c0-3.413 7.215-6.143 16.185-6.143 8.97 0 16.185 2.73 16.185 6.143" stroke="#0069FF" stroke-width="2" opacity=".4"></path><path d="M16.185 39c-3.412 0-6.142-7.215-6.142-16.185 0-8.97 2.73-16.185 6.142-16.185" stroke="#0069FF" stroke-width="2" opacity=".4"></path><path d="M32.37 22.815c0 3.412-7.215 6.142-16.185 6.142C7.215 28.957 0 26.227 0 22.816" stroke="#0069FF" stroke-width="2"></path><path d="M16.185 6.63c3.413 0 6.143 7.215 6.143 16.185 0 8.97-2.73 16.185-6.143 16.185" stroke="#0069FF" stroke-width="2"></path><circle stroke="#0069FF" stroke-width="2" cx="16.185" cy="22.815" r="16.185"></circle><g transform="translate(8.775)" stroke="#120078" stroke-width="2"><path d="M14.332 6.923c0 5.167-6.922 10.237-6.922 10.237S.487 11.895.487 6.922C.487 3.12 3.607 0 7.41 0s6.922 3.12 6.922 6.923z" fill="#FFFFFF" fill-rule="nonzero"></path><circle cx="7.41" cy="7.02" r="2.34"></circle></g></g></svg>
+                        <p>Global availability</p>
+                        <p>
+                            Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.
+                        </p>
+                    </div>
+                    </div>
+            </section>
+            <section id="sezione3" class="sezione-immagine text-center">
+                <div class="container">
+                    <div class="sezione-immagine2">
+                        <p>Designed for developers</p>
+                    </div>
+                    <div class="sezione-immagine3">
+                        <p>
+                            Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.
+                        </p>
+                    </div>
+                    <div class="icona  col-lg-1 col-lg-offset-2 hidden-xs hidden-md hidden-sm">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+                    <div class="sezione-immagine4 text-center col-lg-6">
+                        <img src="img/screenshot-1.jpg" alt="">
+                    </div>
+                    <div class="icona col-lg-1 hidden-xs hidden-md hidden-sm">
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="sezione-immagine5 col-lg-12">
+                        <p>
+                            Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications.
+                        </p>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="sezione4">
+                <div class="text-center">
+                    <div class="container">
+                        <p class="sezione-4" >Built for business</p>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 colonne text-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge bui-u-mb--regular"><defs><linearGradient x1="50%" y1="1.661%" x2="50%" y2="97.435%" id="a"><stop stop-color="#0069FF" stop-opacity=".424" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M17.5 40C7.6 36.5.8 30 .8 20.4V7.9L17.5 1l16.7 6.9v12.5c.1 9.6-7 16.1-16.7 19.6z" fill="url(#a)" fill-rule="nonzero" transform="translate(3)"></path><path d="M20.5 2.2L36 8.6v11.8c.1 10.7-9.4 16.1-15.5 18.5C7.7 34.1 5 26.2 5 20.4V8.6l15.5-6.4zm0-2.2L3 7.3v13.1c0 10 7.1 16.9 17.5 20.6C30.7 37.3 38.1 30.4 38 20.4V7.3L20.5 0z" fill="#0069FF" fill-rule="nonzero"></path><path d="M20.5 32.6c-5.6-2-10.4-5.7-10.4-11.8v-8.7l10.4-4.2 10.4 4.2v8.7c0 6.2-4.9 9.9-10.4 11.8z" stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero"></path><path stroke="#120078" stroke-width="2" d="M16.1 19.3l3.3 3.4 5.6-5.8"></path></g></svg>
+                                <p class="sezione4-p1">Reliable platform</p>
+                                <p class="sezione4-p2">
+                                    More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.
+                                </p>
+                                <a href="#">Security</a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 colonne text-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge bui-u-mb--regular"><defs><linearGradient x1="50%" y1="100%" x2="50%" y2="50%" id="a"><stop stop-color="#0069FF" stop-opacity=".3" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#a)" fill-rule="nonzero" d="M34.6 38.5H8.4l-.2-7.8-7.8.3V.6h34.2z" transform="translate(3 1)"></path><path stroke="#0069FF" stroke-width="2" d="M3 31.8h8.1V40"></path><path stroke="#0069FF" stroke-width="2" opacity=".3" d="M3 14h35v11.9H3zM38 19.9H3"></path><path d="M9.1 8.1h8.4M25 32h6.7" stroke="#0069FF" stroke-width="2"></path><path d="M11.8 14.1V26M20.9 14.1V26" stroke="#0069FF" stroke-width="2" opacity=".3"></path><path stroke="#0069FF" stroke-width="2" d="M38 14.9V1H3v30.8l8.1 8.2H38V13.2"></path><path stroke="#120078" stroke-width="2" d="M38 38.9V1H4"></path></g></svg>
+                                <p class="sezione4-p1">Predictable pricing</p>
+                                <p class="sezione4-p2">
+                                    Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.
+                                </p>
+                                <a href="#">Pricing</a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 colonne text-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge bui-u-mb--regular"><defs><linearGradient x1="50.0205%" y1="90.8268%" x2="50.0205%" y2="5.825%" id="a"><stop stop-color="#0069FF" stop-opacity=".6" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><g fill-rule="nonzero"><path d="M6.3149 26.0723h-2V14.0404C4.3149 7.9286 9.2435 3 15.3553 3h10.2894C31.7565 3 36.685 7.9286 36.685 14.0404v11.2022c0 6.1118-4.9286 11.0404-11.0404 11.0404v-2c5.0073 0 9.0404-4.0332 9.0404-9.0404V14.0404C34.6851 9.0331 30.652 5 25.6447 5H15.3553C10.348 5 6.315 9.0331 6.315 14.0404v12.032z" fill="#0069FF"></path><path d="M3.0745 28.649C1.3605 28.649 0 27.2884 0 25.5744V19.6c0-1.714 1.3605-3.0745 3.0745-3.0745h3.3234V28.649H3.0745zm0-10.1235C2.465 18.5255 2 18.9905 2 19.6v5.9745c0 .6094.465 1.0744 1.0745 1.0744h1.3234v-8.1234H3.0745zM37.9255 16.5255C39.6395 16.5255 41 17.886 41 19.6v5.9745c0 1.714-1.3605 3.0744-3.0745 3.0744h-3.3234V16.5255h3.3234zm0 10.1234c.6094 0 1.0745-.465 1.0745-1.0744V19.6c0-.6094-.465-1.0745-1.0745-1.0745h-1.3234v8.1234h1.3234zM24.732 36.1915c.1944 0 .4106-.2161.4106-.4106v-1.2447c0-.2329-.1707-.4107-.4107-.4107h-7.966c-.2328 0-.4106.1707-.4106.4107v1.2447c0 .2328.1707.4106.4107.4106h7.966zm0 2h-7.966c-1.3632 0-2.4107-1.091-2.4107-2.4106v-1.2447c0-1.3632 1.0911-2.4107 2.4107-2.4107h7.966c1.3631 0 2.4106 1.0911 2.4106 2.4107v1.2447c0 1.299-1.1116 2.4106-2.4107 2.4106z" fill="#120078"></path></g><g transform="translate(10.9574 9.8085)"><circle fill="url(#a)" fill-rule="nonzero" cx="9.5426" cy="9.2936" r="9.1277"></circle><path d="M9.7674 12.704c.5514-.366 1.1026-.7748 1.6132-1.213 1.353-1.1614 2.1407-2.297 2.1407-3.1931 0-.8249-.68-1.4894-1.4894-1.4894-.8248 0-1.4893.68-1.4893 1.4894h-2c0-.8249-.68-1.4894-1.4894-1.4894-.8249 0-1.4894.68-1.4894 1.4894 0 .8961.7878 2.0317 2.1407 3.193.5106.4383 1.0618.8471 1.6132 1.2132.0796.0528.1548.1019.2249.147.07-.0451.1452-.0942.2248-.147z" fill="#FFF"></path><path d="M9.7674 12.704c.5514-.366 1.1026-.7748 1.6132-1.213 1.353-1.1614 2.1407-2.297 2.1407-3.1931 0-.8249-.68-1.4894-1.4894-1.4894-.8248 0-1.4893.68-1.4893 1.4894h-2c0-.8249-.68-1.4894-1.4894-1.4894-.8249 0-1.4894.68-1.4894 1.4894 0 .8961.7878 2.0317 2.1407 3.193.5106.4383 1.0618.8471 1.6132 1.2132.0796.0528.1548.1019.2249.147.07-.0451.1452-.0942.2248-.147zm2.2645-7.8955c1.9038 0 3.4894 1.5495 3.4894 3.4894 0 1.645-1.0793 3.201-2.838 4.7106-.5785.4966-1.1942.9532-1.8097 1.3618-.371.2463-.663.424-.838.5231l-.493.2794-.493-.2794c-.175-.0991-.467-.2768-.838-.523-.6156-.4087-1.2312-.8653-1.8097-1.3619C4.643 11.499 3.5639 9.943 3.5639 8.298c0-1.9038 1.5494-3.4894 3.4893-3.4894.9674 0 1.8526.4001 2.4894 1.0482.6311-.6445 1.5105-1.0482 2.4893-1.0482z" fill="#120078" fill-rule="nonzero"></path></g></g></svg>
+                                <p class="sezione4-p1">World-class service</p>
+                                <p class="sezione4-p2">
+                                    Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.
+                                </p>
+                                <a href="#">Support</a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 colonne text-left">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge"><defs><linearGradient x1="11.123%" y1="109.271%" x2="80.386%" y2="3.434%" id="aprebu"><stop stop-color="#0069FF" stop-opacity=".6" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient><linearGradient x1="11.231%" y1="109.543%" x2="80.289%" y2="3.243%" id="bprebu"><stop stop-color="#0069FF" stop-opacity=".6" offset="0%"></stop><stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#aprebu)" fill-rule="nonzero" opacity=".3" d="M24.93 12.96V.9H8.73v12.06z" transform="translate(3.5 2)"></path><path stroke="#0069FF" stroke-width="2" opacity=".3" d="M28.414 2.876v12.06h-16.2V2.876z"></path><path fill="#FFFFFF" fill-rule="nonzero" d="M32.59 7.593v18.09H8.11V7.593z"></path><path fill="url(#bprebu)" fill-rule="nonzero" d="M29.07 23.76V5.67H4.59v18.09z" transform="translate(3.5 2)"></path><path stroke="#0069FF" stroke-width="2" d="M32.59 7.593v18.09H8.11V7.593z"></path><path stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" d="M3.522 37.985v-25.2h33.66v25.2z"></path><g stroke="#120078" stroke-width="2"><path d="M20.33 20.81v9.09M15.74 25.4h9.18"></path></g></g></svg>
+                                <p class="sezione4-p1">Security and compliance</p>
+                                <p class="sezione4-p2">
+                                    Keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.
+                                </p>
+                                <a href="#">Compliance</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sezione5">
+                <div class="container">
+                    <div id="sezione5-titolo" class="text-center">
+                        <p>Service your customers around the world from 12 data centers.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-xs-12 margin">
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>AMS2</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>Amsterdam, Netherlands</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>AMS3</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>Amsterdam, Netherlands</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>BLR1</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>Bangalore, India</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>FRA1</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>Frankfurt, Germany</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>LON1</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>London, UK</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>NYC1</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>New York, USA</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-xs-12">
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>NYC2</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>New York, USA</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>NYC3</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>New York, USA</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>SFO1</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>San Francisco, USA</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>SFO2</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>San Francisco, USA</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12 border">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>SGP1</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>Singapore</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                            <div class="sottocolonne col-lg-12 col-md-12 col-xs-12">
+                                <div class="col-lg-2 col-md-2 col-xs-2 sigla">
+                                    <p>TOR1</p>
+                                </div>
+                                <div class="col-lg-8 col-md-7 col-xs-8 citta">
+                                    <p>Toronto, Canada</p>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-xs-2 test">
+                                    <a href="#">Test speed </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="sezione6" class="sezione-immagine text-center">
+                <div class="container">
+                    <div class="sezione-immagine2">
+                        <p>Development teams love DigitalOcean</p>
+                    </div>
+                    <div class="sezione-immagine3">
+                        <p>
+                            Easily organize your infrastructure with Projects. And with Teams, everyone can get their own account, with just the privileges they need to do their jobs.
+                        </p>
+                    </div>
+                    <div class="icona  col-lg-1 col-lg-offset-2 hidden-xs hidden-md hidden-sm">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                    </div>
+                    <div class="sezione-immagine4 text-center col-lg-6">
+                        <img src="img/screenshot-1.jpg" alt="">
+                    </div>
+                    <div class="icona col-lg-1 hidden-xs hidden-md hidden-sm">
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                    <div class="sezione-immagine5 col-lg-12">
+                        <p>
+                            Use Kubernetes to improve availability, scalability, and resource efficiency of your containerized applications.
+                        </p>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="sezione7">
+                <div class="container">
+                    <div id="sezione7-p" class="col-lg-12 margin text-center">
+                        <p>Get started now.</p>
+                    </div>
+                    <div id="sezione7-pulsante" class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-xs-8 col-xs-offset-2 text-center">
+                        <button type="button" id="create-account2" class="center-block btn btn-primary">Create Your Account</button>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div id="footer-top">
+                    <div class="container border">
+                        <div class="row">
+                            <div class="col-lg-2 col-lg-offset-1 col-xs-6 lista">
+                                <ul class="margin">
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Leadership</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-xs-6 lista">
+                                <ul>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-xs-6 lista">
+                                <ul>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-xs-6 lista">
+                                <ul>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-2 col-xs-6 lista">
+                                <ul>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                    <li><a href="#">Company</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer-bottom" class="padding">
+                    <div class="container">
+                        <div id="copyright" class="col-lg-5 text-center">
+                            <div class="col-lg-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" class="www-u-MarginRight--medium"><title>DigitalOcean home</title><g fill="#0080FF" fill-rule="evenodd"><path d="M24.9153 50v-9.661c10.226 0 18.1638-10.1413 14.2372-20.904-1.4406-3.983-4.6327-7.1751-8.6158-8.6158C19.774 6.921 9.6327 14.8305 9.6327 25.0565H0C0 8.7571 15.7627-3.9548 32.8531 1.3842c7.4576 2.3446 13.418 8.2768 15.7345 15.7344C53.9266 34.2373 41.2429 50 24.9153 50"></path><path d="M15.339 40.3672h9.6045v-9.6045H15.339zM7.9379 47.7684h7.401v-7.4012H7.938zM1.7514 40.3672H7.938v-6.1864H1.7514z"></path></g></svg>
+                            </div>
+                            <div class="col-lg-11 style-copy">
+                                <p>&copy; 2020 DigitalOcean, LLC. All rights reserved.</p>
+                            </div>
+                        </div>
+                        <div id="social" class="col-lg-3 col-lg-offset-4 style-copy text-center">
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-dev"></i>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>

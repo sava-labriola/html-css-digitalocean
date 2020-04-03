@@ -1,0 +1,417 @@
+footer {
+    padding: 30px 0;
+    background-color: #010E28;
+}
+
+.navbar.navbar-default {
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    border: 0;
+}
+
+.style-copy {
+    color: gray;
+    padding-top: 10px;
+}
+
+.padding {
+    padding-top: 20px;
+}
+
+.margin {
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    margin-top: 60px;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.form-control {
+    padding: 25px 25px 25px 10px;
+}
+
+#border {
+    border-bottom: 1px solid lightgray;
+}
+
+#new {
+    font-size: 10px;
+    padding: 2px 8px;
+    background-color: #00D7D2;
+    border: 0;
+}
+
+#sign {
+    margin: 0;
+    font-weight: bold;
+    border: 1px solid #0069FF;
+    color: #0069FF;
+}
+
+#header-top-left ul {
+    padding: 0;
+    margin-top: 7px;
+}
+
+#header-top-right ul {
+    padding: 0;
+    margin-top: 13px;
+}
+
+#header-top-left ul li,
+#header-top-right ul li {
+    display: inline-block;
+}
+
+#header-top-left ul li:last-child,
+#header-top-right ul li {
+    padding-left: 10px;
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#header-bottom-central ul {
+    padding: 0;
+}
+
+#header-bottom-central ul li {
+    display: inline-block;
+    padding: 0 15px;
+    color: #031B4E;
+    font-weight: bold;
+}
+
+#header-bottom-left img {
+    height: 30px;
+}
+
+#jumbotron-left {
+margin-top: 50px;
+margin-bottom: 100px;
+}
+
+#jumbotron-left h1,
+#jumbotron-left p {
+    color: white;
+}
+
+#jumbotron-left h1 {
+    font-weight: bold;
+}
+
+#jumbotron-right form {
+    height: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#jumbotron-right h1 {
+    color: #031B5F;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#create-account {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #0069ff;
+}
+
+#separatore {
+    margin-top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+
+#google {
+    margin-top: 20px;
+    padding: 15px 35px 15px 15px;
+    background-color: #f2f8ff;
+    color: #031B5F;
+    font-weight: bold;
+    border: 1px solid rgba(0,105,255,.2);
+}
+
+#github {
+    margin-top: 20px;
+    padding: 15px 35px 15px 15px;
+    background-color: #f2f8ff;
+    color: #031B5F;
+    font-weight: bold;
+    border: 1px solid rgba(0,105,255,.2);
+}
+
+#google i,
+#github i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+#terms {
+    padding-top: 20px;
+    font-size: 15px;
+    color: gray;
+}
+
+#sezione1 {
+    background-color: #F3F5F9;
+}
+
+#sezione1-titolo {
+    font-weight: bold;
+    color: gray;
+    margin-top: 40px;
+}
+
+#sezione1 img {
+    width: 100%;
+}
+
+#sezione2 {
+    padding-bottom: 100px;
+}
+
+#business {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#business a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0069ff;
+}
+
+#sezione2-titolo {
+    margin-top: 40px;
+}
+
+#sezione2-titolo p {
+    color: #031B5F;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#sezione2-paragrafo p {
+    color: gray;
+    font-size: 20px;
+}
+
+#sezione2-lista {
+    height: 400px;
+}
+
+#sezione2-lista,
+.elements {
+    margin-top: 40px;
+}
+
+#sezione2-lista a {
+    text-decoration: none;
+    color: gray;
+}
+
+#sezione2-lista ul {
+    list-style-type: none;
+}
+
+#sezione2-lista ul li {
+    border-left: 2px solid lightgray;
+    padding: 20px;
+    color: gray;
+    font-size: 15px;
+}
+
+.elements p:first-of-type {
+    color: #031B5F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.elements p:last-of-type {
+    color: gray;
+    font-size: 20px;
+}
+
+#sezione3,
+#sezione6 {
+    background-color: #F3F5F9;
+}
+
+.sezione-immagine2,
+.sezione-4 {
+    padding-top: 60px;
+    color: #031B5F;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.sezione-immagine3{
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.sezione-immagine4 img {
+    width: 100%;
+}
+
+.fas.fa-ellipsis-h {
+    color: #0069FF;
+    font-size: 30px;
+}
+
+.icona {
+    margin-top: 170px;
+}
+
+.sezione-immagine5{
+    color: gray;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.colonne {
+    margin-bottom: 20px;
+}
+
+.sezione4-p1 {
+    color: #031B5F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sezione4-p2 {
+    font-weight: 200;
+    padding-top: 15px;
+    color: gray;
+    font-size: 15px;
+}
+
+.colonne a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+#sezione5-titolo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sezione5-titolo p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#sezione5 {
+    padding-bottom: 80px;
+    background-color: #031b4e;
+    background-image: url(img/planisfero.svg);
+
+}
+
+#sezione7 {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+#sezione7 {
+    padding: 50px 0;
+}
+
+#sezione7-p p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#create-account2 {
+    color: #0146FB;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 100%;
+    background-color: white;
+}
+
+#social i {
+    padding: 0 8px;
+    color: gray;
+    font-size: 20px;
+}
+
+.lista {
+    margin-bottom: 15px;
+}
+
+.lista ul li:first-of-type a {
+    color: white;
+}
+
+.lista ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.lista ul li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.sottocolonne {
+    vertical-align: middle;
+}
+
+.sottocolonne div {
+    padding: 10px 0;
+}
+
+.sottocolonne .sigla p {
+    color: white;
+    font-weight: bold;
+}
+
+.sottocolonne .citta p {
+    color: gray;
+}
+
+.sottocolonne .test a {
+    font-weight: bold;
+}
+
+.sottocolonne .test a,
+.sottocolonne .citta p,
+.sottocolonne .sigla p {
+    margin: 0;
+}
+
+.border {
+    border-bottom: 1px solid rgb(211,211,211,0.3);
+}
+
+@media all and (max-width: 767px) {
+    .jumbotron {
+        margin: -10px;
+    }
+
+    #sezione2-lista {
+        height: auto;
+    }
+}
