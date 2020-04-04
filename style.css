@@ -67,10 +67,15 @@ footer {
     display: inline-block;
 }
 
+#header-top-left ul li a,
+#header-top-right ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
 #header-top-left ul li:last-child,
 #header-top-right ul li {
     padding-left: 10px;
-    color: gray;
     font-weight: bold;
     font-size: 12px;
 }
@@ -79,10 +84,14 @@ footer {
     padding: 0;
 }
 
+#header-bottom-central ul li a {
+    color: #031B4E;
+    text-decoration: none;
+}
+
 #header-bottom-central ul li {
     display: inline-block;
     padding: 0 15px;
-    color: #031B4E;
     font-weight: bold;
 }
 
@@ -372,7 +381,7 @@ margin-bottom: 100px;
 
 .lista ul li {
     list-style-type: none;
-    padding: 10px 0;
+    padding: 4px 0;
 }
 
 .sottocolonne {
